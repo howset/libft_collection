@@ -1,6 +1,6 @@
 # Libft collection
 
-This is a collection of all libft including the get_next_line and ft_printf functions. Cleaned up and structured for convinience to be used in other projects if necessary. 
+This is a collection of all libft including the get_next_line and ft_printf functions. Cleaned up and structured for convenience to be used in other projects if necessary. 
 
 The makefile has undergone a minor adjustment to accomodate all the .c files and their corresponding headers.
 

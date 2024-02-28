@@ -2,18 +2,18 @@
 # Variables.
 
 ## Name
-NAME				= libft.a
+NAME					= libft.a
 
 ## Compiler, flags, & other commands
 CC 					= cc
-CFLAGS 				= -Wall -Werror -Wextra -I
+CFLAGS 					= -Wall -Werror -Wextra -I
 AR					= ar rcs
 RM					= rm -f
 
 ## Directories
-DIR_LFT				= src/libft/
-DIR_FPF				= src/ft_printf/
-DIR_GNL				= src/get_next_line/
+DIR_LFT					= src/libft/
+DIR_FPF					= src/ft_printf/
+DIR_GNL					= src/get_next_line/
 
 ## Sources
 SRC					= $(DIR_FPF)ft_printf.c \
@@ -69,9 +69,9 @@ OBJ					= $(SRC:.c=.o)
 ##------------------------------------------------------------------##
 # Build rules
 
-all:				$(NAME)
+all:					$(NAME)
 
-$(NAME):			$(OBJ)
+$(NAME):				$(OBJ)
 					@$(AR) $(NAME) $(OBJ)
 
 .c.o:
@@ -80,7 +80,7 @@ $(NAME):			$(OBJ)
 clean:
 					$(RM) $(OBJ)
 
-fclean:				clean
+fclean:					clean
 					$(RM) $(NAME)
 
 re:					fclean all

@@ -62,7 +62,15 @@ SRC					= $(DIR_FPF)ft_printf.c \
 					$(DIR_LFT)ft_putstr_fd.c \
 					$(DIR_LFT)ft_putendl_fd.c \
 					$(DIR_LFT)ft_putnbr_fd.c \
-					$(DIR_LFT)ft_atol.c \
+					$(DIR_LFT)ft_lstadd_back.c \
+					$(DIR_LFT)ft_lstadd_front.c \
+					$(DIR_LFT)ft_lstclear.c \
+					$(DIR_LFT)ft_lstdelone.c \
+					$(DIR_LFT)ft_lstiter.c \
+					$(DIR_LFT)ft_lstlast.c \
+					$(DIR_LFT)ft_lstmap.c \
+					$(DIR_LFT)ft_lstnew.c \
+					$(DIR_LFT)ft_lstsize.c \
 
 OBJ					= $(SRC:.c=.o)
 

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strtrim.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: hsetyamu <hsetyamu@student.42.fr>          +#+  +:+       +#+        */
+/*   By: hsetyamu <hsetyamu@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/08 18:02:53 by hsetyamu          #+#    #+#             */
-/*   Updated: 2024/01/11 12:51:58 by hsetyamu         ###   ########.fr       */
+/*   Updated: 2025/05/19 11:22:36 by hsetyamu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,7 +42,7 @@ Allocates (with malloc(3)) and returns a copy of
 from the beginning and the end of the string.
 */
 
-/*
+
 #include <stdio.h>
 
 int	main(void)
@@ -62,4 +62,4 @@ int	main(void)
 	free(res);
 	return 0;
 }
-*/
+
